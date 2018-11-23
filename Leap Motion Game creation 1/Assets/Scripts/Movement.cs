@@ -10,6 +10,7 @@ public class Movement : MonoBehaviour {
     public float push; // the size of the push when extending fingers
     public float velocity; // current velocity
     public float maxvelocity;
+    public float minvelocity;
 
     public float stop; //speed of stopping 
     public float constantspeed; // speed of the plane, when nothing is being done
@@ -20,7 +21,7 @@ public class Movement : MonoBehaviour {
 	void Update () {
 
 
-        if (velocity > 0.3)
+        if (velocity > minvelocity)
         {
             velocity -= stop * Time.deltaTime;
             playermove.Translate(Vector3.forward * velocity); // moves player forward   
@@ -29,7 +30,7 @@ public class Movement : MonoBehaviour {
         else
         {
             playermove.Translate(Vector3.forward * constantspeed * Time.deltaTime);
-            //playermove.Rotate(Vector3.up * velocity * angle);
+            playermove.Rotate(Vector3.up * velocity * angle);
         }
     }
 

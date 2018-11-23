@@ -239,11 +239,12 @@ MonoBehaviour:
   player: {fileID: 133976094}
   playermove: {fileID: 133976098}
   push: 30
-  velocity: 0
+  velocity: 0.3
   maxvelocity: 1
+  minvelocity: 0.3
   stop: 0.5
-  constantspeed: 0
-  angle: -1
+  constantspeed: 0.3
+  angle: -20
 --- !u!114 &310451720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2315,11 +2316,12 @@ MonoBehaviour:
   player: {fileID: 133976094}
   playermove: {fileID: 133976098}
   push: 30
-  velocity: 0
+  velocity: 0.3
   maxvelocity: 1
+  minvelocity: 0.3
   stop: 0.5
-  constantspeed: 0
-  angle: 1
+  constantspeed: 0.3
+  angle: 20
 --- !u!114 &2034342488
 MonoBehaviour:
   m_ObjectHideFlags: 0
