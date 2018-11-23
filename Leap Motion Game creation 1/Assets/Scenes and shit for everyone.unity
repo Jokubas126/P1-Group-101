@@ -240,9 +240,9 @@ MonoBehaviour:
   playermove: {fileID: 133976098}
   push: 30
   velocity: 0.3
+  maxvelocity: 1
   stop: 0.5
   constantspeed: 0.3
-  turn: 30
   angle: 1
 --- !u!114 &310451720
 MonoBehaviour:
@@ -258,7 +258,7 @@ MonoBehaviour:
   OnActivate:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2034342487}
+      - m_Target: {fileID: 310451719}
         m_MethodName: PrintActivateMesssage
         m_Mode: 1
         m_Arguments:
@@ -274,7 +274,7 @@ MonoBehaviour:
   OnDeactivate:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2034342487}
+      - m_Target: {fileID: 310451719}
         m_MethodName: PrintDeactivateMesssage
         m_Mode: 1
         m_Arguments:
@@ -1199,7 +1199,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 35784caac9067a94299078fd226692a7, type: 2}
+  - {fileID: 2100000, guid: 8115751b04bc4154193f691b9e53cc4b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2306,9 +2306,9 @@ MonoBehaviour:
   playermove: {fileID: 133976098}
   push: 30
   velocity: 0.3
+  maxvelocity: 1
   stop: 0.5
   constantspeed: 0.3
-  turn: 30
   angle: 1
 --- !u!114 &2034342488
 MonoBehaviour:

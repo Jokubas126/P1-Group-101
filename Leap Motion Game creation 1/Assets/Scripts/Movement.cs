@@ -23,13 +23,13 @@ public class Movement : MonoBehaviour {
         if (velocity > 0.3)
         {
             velocity -= stop * Time.deltaTime;
-            playermove.Translate(Vector3.forward * velocity);
-            playermove.Rotate(Vector3.up * velocity * angle * Time.deltaTime);
+            playermove.Translate(Vector3.forward * velocity); // moves player forward   
+            playermove.Rotate(Vector3.up * velocity * angle * Time.deltaTime); //turns player by the angle which gets as big as velocity is
         }
         else
         {
             playermove.Translate(Vector3.forward * constantspeed * Time.deltaTime);
-            playermove.Rotate(Vector3.up * velocity * angle);
+            //playermove.Rotate(Vector3.up * velocity * angle);
         }
     }
 
@@ -38,7 +38,7 @@ public class Movement : MonoBehaviour {
         if (velocity < maxvelocity)
         {
             velocity += push * Time.deltaTime;
-            player.AddForce(Vector3.forward * velocity, ForceMode.VelocityChange);
+            player.AddForce(Vector3.forward * velocity/*, ForceMode.VelocityChange*/);
         }
     }
     public void PrintDeactivateMesssage(){}
