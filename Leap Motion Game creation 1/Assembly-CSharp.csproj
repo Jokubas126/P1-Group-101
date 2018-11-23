@@ -247,7 +247,6 @@
     <Compile Include="Assets\LeapMotion\Core\Scripts\Utils\XRSupportUtil.cs" />
     <Compile Include="Assets\LeapMotion\Core\Scripts\XR\LeapEyeDislocator.cs" />
     <Compile Include="Assets\LeapMotion\Core\Scripts\XR\XRHeightOffset.cs" />
-    <Compile Include="Assets\Scripts\MinimapPlace.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\MovementLeftHand.cs" />
     <None Include="Assets\LeapMotion\Core\Resources\LeapCG.cginc" />
