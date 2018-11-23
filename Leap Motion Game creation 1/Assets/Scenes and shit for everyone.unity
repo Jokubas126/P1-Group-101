@@ -239,11 +239,11 @@ MonoBehaviour:
   player: {fileID: 133976094}
   playermove: {fileID: 133976098}
   push: 30
-  velocity: 0.3
+  velocity: 0
   maxvelocity: 1
   stop: 0.5
-  constantspeed: 0.3
-  angle: 1
+  constantspeed: 0
+  angle: -1
 --- !u!114 &310451720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -288,7 +288,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   Period: 0.1
-  HandModel: {fileID: 867040963}
+  HandModel: {fileID: 795409495}
   Thumb: 2
   Index: 0
   Middle: 0
@@ -2090,6 +2090,10 @@ Prefab:
       propertyPath: m_Height
       value: 0.29100004
       objectReference: {fileID: 0}
+    - target: {fileID: 11422472, guid: 23f2cce114628a448bfeaae171b4c0c0, type: 2}
+      propertyPath: fingers.Array.data[0]
+      value: 
+      objectReference: {fileID: 1821501295}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23f2cce114628a448bfeaae171b4c0c0, type: 2}
   m_IsPrefabAsset: 0
@@ -2178,6 +2182,12 @@ Transform:
   m_Father: {fileID: 133976098}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 12.606001, y: 0, z: 0}
+--- !u!114 &1821501295 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 11481156, guid: 23f2cce114628a448bfeaae171b4c0c0,
+    type: 2}
+  m_PrefabInternal: {fileID: 1367067090}
+  m_Script: {fileID: 11500000, guid: 862e1c8d784604a8ba021be6abc6470a, type: 3}
 --- !u!1001 &1933043290
 Prefab:
   m_ObjectHideFlags: 0
@@ -2305,10 +2315,10 @@ MonoBehaviour:
   player: {fileID: 133976094}
   playermove: {fileID: 133976098}
   push: 30
-  velocity: 0.3
+  velocity: 0
   maxvelocity: 1
   stop: 0.5
-  constantspeed: 0.3
+  constantspeed: 0
   angle: 1
 --- !u!114 &2034342488
 MonoBehaviour:
