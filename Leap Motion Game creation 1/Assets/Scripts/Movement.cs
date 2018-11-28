@@ -29,7 +29,7 @@ public class Movement : MonoBehaviour {
         }
         else
         {
-            playermove.Translate(Vector3.forward * constantspeed * Time.deltaTime);
+            player.velocity = (playermove.forward * constantspeed * Time.deltaTime);
             //playermove.Rotate(Vector3.up * velocity * angle);
         }
     }
