@@ -986,7 +986,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
       propertyPath: m_Name
-      value: Capitals (3)
+      value: Tallinn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
@@ -2037,7 +2037,7 @@ Transform:
   m_LocalScale: {x: 181.4, y: 1, z: 151.2}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 43
+  m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &700805770
 Prefab:
@@ -2520,7 +2520,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
       propertyPath: m_Name
-      value: Capitals (2)
+      value: Oslo
       objectReference: {fileID: 0}
     - target: {fileID: 4322006774303618, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -2613,6 +2613,10 @@ Prefab:
     - target: {fileID: 4322006774303618, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
       propertyPath: m_RootOrder
       value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_Name
+      value: Copenhagen
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
@@ -2900,7 +2904,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
       propertyPath: m_Name
-      value: Capitals (1)
+      value: Stockholm
       objectReference: {fileID: 0}
     - target: {fileID: 4322006774303618, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -4551,7 +4555,7 @@ Transform:
   m_Children:
   - {fileID: 1841721056}
   m_Father: {fileID: 0}
-  m_RootOrder: 41
+  m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1567578445
 Prefab:
