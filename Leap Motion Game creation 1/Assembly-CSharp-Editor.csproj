@@ -111,16 +111,16 @@
     <Compile Include="Assets\LeapMotion\Core\Scripts\XR\Editor\LeapEyeDislocatorEditor.cs" />
     <Compile Include="Assets\LeapMotion\Core\Scripts\XR\Editor\XRHeightOffsetEditor.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>D:/Processing programos/P1-Group-101/Leap Motion Game creation 1/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/Lenovo/Documents/P1-Group-101/Leap Motion Game creation 1/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Processing programos/P1-Group-101/Leap Motion Game creation 1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Lenovo/Documents/P1-Group-101/Leap Motion Game creation 1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/Processing programos/P1-Group-101/Leap Motion Game creation 1/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/Lenovo/Documents/P1-Group-101/Leap Motion Game creation 1/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Processing programos/P1-Group-101/Leap Motion Game creation 1/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Lenovo/Documents/P1-Group-101/Leap Motion Game creation 1/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/FOR STUDIES/Unity/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
