@@ -88,10 +88,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 917, y: 271}
-  m_MaxSize: {x: 22012, y: 10021}
+  m_MinSize: {x: 913, y: 271}
+  m_MaxSize: {x: 22008, y: 10021}
   vertical: 0
-  controlID: 147
+  controlID: 9
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -130,8 +130,8 @@ MonoBehaviour:
     y: 0
     width: 206
     height: 731
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 10}
   m_Panes:
   - {fileID: 10}
@@ -239,10 +239,10 @@ MonoBehaviour:
     height: 710
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 180}
-    m_SelectedIDs: d20a0000
-    m_LastClickedID: 0
-    m_ExpandedIDs: e4fbffff00000000
+    scrollPos: {x: 0, y: 359}
+    m_SelectedIDs: e25cfeff
+    m_LastClickedID: -107294
+    m_ExpandedIDs: 38cbfeff6666ffffe4fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -337,7 +337,7 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders:
@@ -395,7 +395,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 7}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -456,7 +456,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 92.8
-    width: 818
+    width: 810
     height: 710
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
@@ -469,10 +469,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -409
-    m_HBaseRangeMax: 409
-    m_VBaseRangeMin: -346.5
-    m_VBaseRangeMax: 346.5
+    m_HBaseRangeMin: -324
+    m_HBaseRangeMax: 324
+    m_VBaseRangeMin: -277.2
+    m_VBaseRangeMax: 277.2
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -490,25 +490,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 818
+      width: 810
       height: 693
     m_Scale: {x: 1.25, y: 1.25}
-    m_Translation: {x: 409, y: 346.5}
+    m_Translation: {x: 405, y: 346.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -327.2
+      x: -324
       y: -277.2
-      width: 654.4
+      width: 648
       height: 554.4
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 818, y: 710}
+  m_LastWindowPixelSize: {x: 1012.5, y: 887.5}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -544,9 +544,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 425.54498, y: -68.408905, z: -104.157684}
+    m_Target: {x: -34.059242, y: 9.456812, z: -41.969696}
     speed: 2
-    m_Value: {x: 425.54498, y: -68.408905, z: -104.157684}
+    m_Value: {x: -34.059242, y: 9.456812, z: -41.969696}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -574,19 +574,19 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.12638819, y: -0.8653897, z: 0.27283692, w: -0.40088552}
+    m_Target: {x: 0.11988627, y: 0.8429159, z: -0.2103118, w: 0.48050937}
     speed: 2
-    m_Value: {x: 0.12638819, y: 0.8653897, z: -0.27283692, w: 0.40088555}
+    m_Value: {x: 0.11988626, y: 0.8429158, z: -0.21031177, w: 0.4805093}
   m_Size:
-    m_Target: 243.23012
+    m_Target: 1486.7147
     speed: 2
-    m_Value: 243.23012
+    m_Value: 1486.7147
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
+  m_LastSceneViewRotation: {x: 0.12638819, y: 0.8653897, z: -0.27283692, w: 0.40088555}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
