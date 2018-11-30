@@ -21,17 +21,17 @@ public class Movement : MonoBehaviour {
 	void Update () {
 
 
-        if (velocity > 0.4)
+        if (velocity > constantspeed)
         {
             velocity -= stop * Time.deltaTime;
             playermove.Translate(Vector3.forward * velocity); // moves player forward   
             playermove.Rotate(Vector3.up * velocity * angle * Time.deltaTime); //turns player by the angle which gets as big as velocity is
         }
-        else
-        {
-            player.velocity += transform.forward * constantspeed * Time.deltaTime;
+        //else
+        //{
+            //player.velocity += transform.forward * constantspeed * Time.deltaTime;
             //playermove.Rotate(Vector3.up * velocity * angle);
-        }
+        //}
     }
 
     public void PrintActivateMesssage()
