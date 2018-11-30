@@ -12,6 +12,12 @@ public class ButtonInput : MonoBehaviour {
 
 	}
 
+	public void CloseGame () {
+
+		Application.Quit ();
+		Debug.Log ("Closing the game");
+
+	}
 		
 	}
 
