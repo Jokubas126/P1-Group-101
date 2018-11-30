@@ -456,6 +456,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4322006774303618}
+  - component: {fileID: 65140250028785770}
   m_Layer: 0
   m_Name: Capitals
   m_TagString: Untagged
@@ -2266,3 +2267,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1054086909721256}
   m_Mesh: {fileID: 4300000, guid: 7fb1c38578c4a2741b7a764670651e7c, type: 3}
+--- !u!65 &65140250028785770
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1467620485399794}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.25, y: 0.3, z: 0.25}
+  m_Center: {x: 0, y: 0.15, z: 0}
