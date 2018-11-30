@@ -18,6 +18,17 @@ public class ButtonInput : MonoBehaviour {
 		Debug.Log ("Closing the game");
 
 	}
+
+	void Update () {
+
+		if( Input.GetKey ("escape")){
+
+			Application.Quit ();
+			Debug.Log ("Closing the game");
+
+			}		
+
+		}
 		
 	}
 
