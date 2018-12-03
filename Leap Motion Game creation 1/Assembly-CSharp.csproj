@@ -248,6 +248,7 @@
     <Compile Include="Assets\LeapMotion\Core\Scripts\XR\LeapEyeDislocator.cs" />
     <Compile Include="Assets\LeapMotion\Core\Scripts\XR\XRHeightOffset.cs" />
     <Compile Include="Assets\Scripts\ButtonInput.cs" />
+    <Compile Include="Assets\Scripts\CityController.cs" />
     <Compile Include="Assets\Scripts\Collisions.cs" />
     <Compile Include="Assets\Scripts\Minimap.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />

@@ -6,6 +6,9 @@ using System;
 public class PackageController : MonoBehaviour {
 
     //System.Random rnd = new System.Random();
+
+    
+
     public int numberOfPackages;
     public int packageToDrop;
     public List<int> packages = new List<int>();
@@ -35,8 +38,8 @@ public class PackageController : MonoBehaviour {
     {
         numberOfPackages = 3;
         if (quest == true)
-        { 
-            packages.Add(numberOfPackages);
+        {
+            //Quest();
             for (int i = 0; i < timerInInt; i++)
             {
                 setNewTimer = i;
@@ -70,7 +73,7 @@ public class PackageController : MonoBehaviour {
         }
         else if (dropPackage == true && distanceFromTopToBottomMap > (timerInInt + bonustime))
         {
-
+            packages.Remove(packageToDrop);
         }
         else
         {
@@ -78,5 +81,20 @@ public class PackageController : MonoBehaviour {
         }
 
         currentstars = newstars;
+    }
+
+
+
+    public void Quest(Collider other)
+    {
+        if (quest = true && numberOfPackages == 0)
+        {
+            other.GetComponent<CityController>().CreateQuest();
+            packages.Add(numberOfPackages);
+        }
+        else
+        {
+            Debug.Log("Null");
+        }
     }
 }
