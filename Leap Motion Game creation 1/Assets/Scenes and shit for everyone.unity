@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657892, g: 0.4964128, b: 0.5748173, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -159,6 +159,10 @@ Prefab:
     - target: {fileID: 4322006774303618, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 46.069004
+      objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
@@ -302,6 +306,10 @@ Prefab:
       propertyPath: m_Name
       value: Budapest
       objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
   m_IsPrefabAsset: 0
@@ -351,6 +359,10 @@ Prefab:
     - target: {fileID: 4322006774303618, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 46.161003
+      objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
@@ -472,6 +484,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 121.324005
       objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
   m_IsPrefabAsset: 0
@@ -553,6 +569,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 31.060001
       objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
   m_IsPrefabAsset: 0
@@ -598,6 +618,10 @@ Prefab:
     - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
       propertyPath: m_Name
       value: Brussels
+      objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
@@ -649,6 +673,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 97.679
       objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
   m_IsPrefabAsset: 0
@@ -695,6 +723,10 @@ Prefab:
       propertyPath: m_Name
       value: Rotterdam
       objectReference: {fileID: 0}
+    - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
   m_IsPrefabAsset: 0
@@ -740,6 +772,10 @@ Prefab:
     - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
       propertyPath: m_Name
       value: Florence
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
+      propertyPath: m_TagString
+      value: City
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
@@ -1022,6 +1058,10 @@ Prefab:
       propertyPath: m_Name
       value: Milan
       objectReference: {fileID: 0}
+    - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
   m_IsPrefabAsset: 0
@@ -1128,6 +1168,10 @@ Prefab:
       propertyPath: m_Name
       value: Gdansk
       objectReference: {fileID: 0}
+    - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
   m_IsPrefabAsset: 0
@@ -1178,6 +1222,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 47.634003
       objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
   m_IsPrefabAsset: 0
@@ -1224,6 +1272,10 @@ Prefab:
       propertyPath: m_Name
       value: Gothenburg
       objectReference: {fileID: 0}
+    - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
   m_IsPrefabAsset: 0
@@ -1269,6 +1321,10 @@ Prefab:
     - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
       propertyPath: m_Name
       value: Tallinn
+      objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
@@ -1392,6 +1448,10 @@ Prefab:
       propertyPath: m_Name
       value: Toulouse
       objectReference: {fileID: 0}
+    - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
   m_IsPrefabAsset: 0
@@ -1437,6 +1497,10 @@ Prefab:
     - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
       propertyPath: m_Name
       value: Munich
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
+      propertyPath: m_TagString
+      value: City
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
@@ -1523,6 +1587,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 13.389001
       objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
   m_IsPrefabAsset: 0
@@ -1568,6 +1636,10 @@ Prefab:
     - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
       propertyPath: m_Name
       value: Marseille
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
+      propertyPath: m_TagString
+      value: City
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
@@ -2424,6 +2496,10 @@ Prefab:
       propertyPath: m_Name
       value: Lyon
       objectReference: {fileID: 0}
+    - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
   m_IsPrefabAsset: 0
@@ -2542,6 +2618,10 @@ Prefab:
       propertyPath: m_Name
       value: Warsaw
       objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
   m_IsPrefabAsset: 0
@@ -2587,6 +2667,10 @@ Prefab:
     - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
       propertyPath: m_Name
       value: Kyiv
+      objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
@@ -2634,6 +2718,10 @@ Prefab:
       propertyPath: m_Name
       value: Zagreb
       objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
   m_IsPrefabAsset: 0
@@ -2680,6 +2768,10 @@ Prefab:
       propertyPath: m_Name
       value: Luxembourg
       objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
   m_IsPrefabAsset: 0
@@ -2725,6 +2817,10 @@ Prefab:
     - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
       propertyPath: m_Name
       value: Naples
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
+      propertyPath: m_TagString
+      value: City
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
@@ -2781,6 +2877,10 @@ Prefab:
     - target: {fileID: 4322006774303618, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 50.467003
+      objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
@@ -2859,6 +2959,10 @@ Prefab:
       propertyPath: m_Name
       value: Bucharest
       objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
   m_IsPrefabAsset: 0
@@ -2904,6 +3008,10 @@ Prefab:
     - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
       propertyPath: m_Name
       value: Birmingham
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
+      propertyPath: m_TagString
+      value: City
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
@@ -3035,6 +3143,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 14.706
       objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
   m_IsPrefabAsset: 0
@@ -3081,6 +3193,10 @@ Prefab:
       propertyPath: m_Name
       value: Prague
       objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
   m_IsPrefabAsset: 0
@@ -3126,6 +3242,10 @@ Prefab:
     - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
       propertyPath: m_Name
       value: Copenhagen
+      objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
@@ -3256,6 +3376,10 @@ Prefab:
     - target: {fileID: 4322006774303618, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 10.361
+      objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
@@ -3500,6 +3624,10 @@ Prefab:
       propertyPath: m_Name
       value: Frankfurt
       objectReference: {fileID: 0}
+    - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
   m_IsPrefabAsset: 0
@@ -3545,6 +3673,10 @@ Prefab:
     - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
       propertyPath: m_Name
       value: Vienna
+      objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
@@ -3596,6 +3728,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90.12501
       objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
   m_IsPrefabAsset: 0
@@ -3630,6 +3766,57 @@ Transform:
   m_Father: {fileID: 1490347348}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1206527096
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1206527097}
+  - component: {fileID: 1206527098}
+  m_Layer: 0
+  m_Name: Package
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1206527097
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1206527096}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1490347348}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1206527098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1206527096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d2b1e7ea7de9974aa66f785356c9356, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numberOfPackages: 0
+  packageToDrop: 0
+  packages: 
+  quest: 0
+  dropPackage: 0
+  distance: {x: 0, y: 0, z: 0}
+  distanceFromTopToBottomMap: 0
+  newstars: 0
+  currentstars: 0
+  timerInInt: 0
+  setNewTimer: 0
 --- !u!1001 &1225309232
 Prefab:
   m_ObjectHideFlags: 0
@@ -3677,6 +3864,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -29.117
       objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
   m_IsPrefabAsset: 0
@@ -3722,6 +3913,10 @@ Prefab:
     - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
       propertyPath: m_Name
       value: Chisinau
+      objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
@@ -3778,6 +3973,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -59.731003
       objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
   m_IsPrefabAsset: 0
@@ -3828,6 +4027,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 68.622
       objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
   m_IsPrefabAsset: 0
@@ -3877,6 +4080,10 @@ Prefab:
     - target: {fileID: 4040975713311740, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -11.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
+      propertyPath: m_TagString
+      value: City
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
@@ -4018,6 +4225,10 @@ Prefab:
       propertyPath: m_Name
       value: Minsk
       objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
   m_IsPrefabAsset: 0
@@ -4063,6 +4274,10 @@ Prefab:
     - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
       propertyPath: m_Name
       value: Skopje
+      objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
@@ -4110,6 +4325,10 @@ Prefab:
       propertyPath: m_Name
       value: Leipzig
       objectReference: {fileID: 0}
+    - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
   m_IsPrefabAsset: 0
@@ -4156,6 +4375,10 @@ Prefab:
       propertyPath: m_Name
       value: Helsinki
       objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
   m_IsPrefabAsset: 0
@@ -4201,6 +4424,10 @@ Prefab:
     - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
       propertyPath: m_Name
       value: Paris
+      objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
@@ -4974,6 +5201,10 @@ Prefab:
       propertyPath: m_Name
       value: Malaga
       objectReference: {fileID: 0}
+    - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
   m_IsPrefabAsset: 0
@@ -5055,6 +5286,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 29.442001
       objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
   m_IsPrefabAsset: 0
@@ -5100,6 +5335,10 @@ Prefab:
     - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
       propertyPath: m_Name
       value: Turin
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
+      propertyPath: m_TagString
+      value: City
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
@@ -5147,6 +5386,10 @@ Prefab:
       propertyPath: m_Name
       value: Zaragoza
       objectReference: {fileID: 0}
+    - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
   m_IsPrefabAsset: 0
@@ -5179,6 +5422,7 @@ Transform:
   - {fileID: 1906127240}
   - {fileID: 1099718100}
   - {fileID: 443598274}
+  - {fileID: 1206527097}
   m_Father: {fileID: 1325830795}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5240,6 +5484,10 @@ Prefab:
     - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
       propertyPath: m_Name
       value: Belgrade
+      objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
@@ -5316,6 +5564,10 @@ Prefab:
     - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
       propertyPath: m_Name
       value: Lodz
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
+      propertyPath: m_TagString
+      value: City
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
@@ -5426,6 +5678,10 @@ Prefab:
       propertyPath: m_Name
       value: Moscow
       objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
   m_IsPrefabAsset: 0
@@ -5502,6 +5758,10 @@ Prefab:
       propertyPath: m_Name
       value: Podgorica
       objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
   m_IsPrefabAsset: 0
@@ -5547,6 +5807,10 @@ Prefab:
     - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
       propertyPath: m_Name
       value: Stuttgart
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
+      propertyPath: m_TagString
+      value: City
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
@@ -5598,6 +5862,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 76.342
       objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
   m_IsPrefabAsset: 0
@@ -5648,6 +5916,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -26.247002
       objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
   m_IsPrefabAsset: 0
@@ -5693,6 +5965,10 @@ Prefab:
     - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
       propertyPath: m_Name
       value: Hamburg
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
+      propertyPath: m_TagString
+      value: City
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
@@ -5740,6 +6016,10 @@ Prefab:
       propertyPath: m_Name
       value: Cologne
       objectReference: {fileID: 0}
+    - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
   m_IsPrefabAsset: 0
@@ -5785,6 +6065,10 @@ Prefab:
     - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
       propertyPath: m_Name
       value: Seville
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
+      propertyPath: m_TagString
+      value: City
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
@@ -5836,6 +6120,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 125.74701
       objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
   m_IsPrefabAsset: 0
@@ -5886,6 +6174,10 @@ Prefab:
       propertyPath: m_Name
       value: St Petersburg
       objectReference: {fileID: 0}
+    - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
   m_IsPrefabAsset: 0
@@ -5932,6 +6224,10 @@ Prefab:
       propertyPath: m_Name
       value: Reykjavik
       objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
   m_IsPrefabAsset: 0
@@ -5977,6 +6273,10 @@ Prefab:
     - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
       propertyPath: m_Name
       value: Krakow
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
+      propertyPath: m_TagString
+      value: City
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
@@ -6054,6 +6354,10 @@ Prefab:
     - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
       propertyPath: m_Name
       value: Manchester
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
+      propertyPath: m_TagString
+      value: City
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
@@ -6137,6 +6441,10 @@ Prefab:
     - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
       propertyPath: m_Name
       value: Ljubljana
+      objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
@@ -6351,6 +6659,10 @@ Prefab:
     - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
       propertyPath: m_Name
       value: Palermo
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
+      propertyPath: m_TagString
+      value: City
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
@@ -6662,6 +6974,10 @@ Prefab:
       propertyPath: m_Name
       value: Wroclaw
       objectReference: {fileID: 0}
+    - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
   m_IsPrefabAsset: 0
@@ -6707,6 +7023,10 @@ Prefab:
     - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
       propertyPath: m_Name
       value: Thessaloniki
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
+      propertyPath: m_TagString
+      value: City
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
@@ -6819,6 +7139,10 @@ Prefab:
     - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
       propertyPath: m_Name
       value: Glazgow
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
+      propertyPath: m_TagString
+      value: City
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
@@ -7003,6 +7327,10 @@ Prefab:
       propertyPath: m_Name
       value: Genoa
       objectReference: {fileID: 0}
+    - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
   m_IsPrefabAsset: 0
@@ -7157,6 +7485,10 @@ Prefab:
       propertyPath: m_Name
       value: Dortmund
       objectReference: {fileID: 0}
+    - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
   m_IsPrefabAsset: 0
@@ -7279,6 +7611,10 @@ Prefab:
       propertyPath: m_Name
       value: Zurich
       objectReference: {fileID: 0}
+    - target: {fileID: 1467620485399794, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fad5091696471f45bcba9ce63f32930, type: 2}
   m_IsPrefabAsset: 0
@@ -7394,6 +7730,10 @@ Prefab:
     - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
       propertyPath: m_Name
       value: Valencia
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825873181532040, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
+      propertyPath: m_TagString
+      value: City
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a96c6413f025f34ca8ed6f9595275e2, type: 2}
