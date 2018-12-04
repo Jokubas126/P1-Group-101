@@ -42,5 +42,4 @@ public class Movement : MonoBehaviour {
             player.AddForce(Vector3.forward * velocity/*, ForceMode.VelocityChange*/);
         }
     }
-    public void PrintDeactivateMesssage(){}
 }
