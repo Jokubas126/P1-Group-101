@@ -25,6 +25,7 @@ public class ButtonInput : MonoBehaviour {
 
 			Application.Quit ();
 			Debug.Log ("Closing the game");
+			Debug.Log ("It works. Hurray!!");
 
 			}		
 
