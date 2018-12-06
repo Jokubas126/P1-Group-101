@@ -458,6 +458,7 @@ GameObject:
   - component: {fileID: 4322006774303618}
   - component: {fileID: 65140250028785770}
   - component: {fileID: 114468993069110058}
+  - component: {fileID: 114633558653774684}
   m_Layer: 0
   m_Name: Capitals
   m_TagString: Untagged
@@ -2281,6 +2282,17 @@ BoxCollider:
   m_Size: {x: 0.25, y: 0.3, z: 0.25}
   m_Center: {x: 0, y: 0.15, z: 0}
 --- !u!114 &114468993069110058
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1467620485399794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 188dea7eba5ad534ba5fdc5d37213e93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114633558653774684
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
