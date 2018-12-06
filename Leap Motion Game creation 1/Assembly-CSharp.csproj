@@ -250,6 +250,7 @@
     <Compile Include="Assets\Scripts\ButtonInput.cs" />
     <Compile Include="Assets\Scripts\City names.cs" />
     <Compile Include="Assets\Scripts\CityController.cs" />
+    <Compile Include="Assets\Scripts\CityNames.cs" />
     <Compile Include="Assets\Scripts\Collisions.cs" />
     <Compile Include="Assets\Scripts\Minimap.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
