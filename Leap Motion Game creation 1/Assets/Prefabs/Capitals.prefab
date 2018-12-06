@@ -461,6 +461,7 @@ GameObject:
   - component: {fileID: 114447187947373784}
   - component: {fileID: 23133800387582514}
   - component: {fileID: 102547092346818138}
+  - component: {fileID: 114535551850660870}
   m_Layer: 0
   m_Name: Capitals
   m_TagString: Untagged
@@ -2325,14 +2326,14 @@ TextMesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1467620485399794}
-  m_Text: 
+  m_Text: world
   m_OffsetZ: 0
-  m_CharacterSize: 0
+  m_CharacterSize: 0.005
   m_LineSpacing: 1
-  m_Anchor: 0
+  m_Anchor: 7
   m_Alignment: 0
   m_TabSize: 4
-  m_FontSize: 0
+  m_FontSize: 200
   m_FontStyle: 0
   m_RichText: 1
   m_Font: {fileID: 0}
@@ -2350,7 +2351,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d54351bc05a6f9c478009fc4d015d953, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextName: {fileID: 0}
 --- !u!114 &114468993069110058
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1467620485399794}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 188dea7eba5ad534ba5fdc5d37213e93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114535551850660870
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2358,6 +2371,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1467620485399794}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 188dea7eba5ad534ba5fdc5d37213e93, type: 3}
+  m_Script: {fileID: 11500000, guid: d54351bc05a6f9c478009fc4d015d953, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextName: {fileID: 1467620485399794}

@@ -9,13 +9,12 @@ public class Citynames : MonoBehaviour
 
     // Use this for initialization
     void Start()
-    {
-        TextName.GetComponent<TextMesh>().text = TextName.name;
-    }
+    {}
 
     // Update is called once per frame
     void Update()
     {
+        TextName.GetComponent<TextMesh>().text = TextName.name;
         TextName.transform.LookAt(Camera.main.transform.position);
         TextName.transform.Rotate(0, 180, 0);
     }
