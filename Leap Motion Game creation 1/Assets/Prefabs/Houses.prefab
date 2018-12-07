@@ -2288,6 +2288,9 @@ GameObject:
   - component: {fileID: 4040975713311740}
   - component: {fileID: 65668750587457590}
   - component: {fileID: 114680756434166374}
+  - component: {fileID: 114203691036944816}
+  - component: {fileID: 23927063784671230}
+  - component: {fileID: 102384755283281230}
   m_Layer: 0
   m_Name: Houses
   m_TagString: Untagged
@@ -5240,6 +5243,41 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!23 &23927063784671230
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1825873181532040}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!33 &33315168069129102
 MeshFilter:
   m_ObjectHideFlags: 1
@@ -5259,6 +5297,41 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.55, y: 1, z: 0.55}
   m_Center: {x: -0.25, y: 0.5, z: 0.15}
+--- !u!102 &102384755283281230
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1825873181532040}
+  m_Text: 'city
+
+'
+  m_OffsetZ: 0.15
+  m_CharacterSize: 0.005
+  m_LineSpacing: 1.5
+  m_Anchor: 7
+  m_Alignment: 0
+  m_TabSize: 4
+  m_FontSize: 200
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 0}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294906368
+--- !u!114 &114203691036944816
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1825873181532040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d54351bc05a6f9c478009fc4d015d953, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextName: {fileID: 1825873181532040}
 --- !u!114 &114680756434166374
 MonoBehaviour:
   m_ObjectHideFlags: 1
