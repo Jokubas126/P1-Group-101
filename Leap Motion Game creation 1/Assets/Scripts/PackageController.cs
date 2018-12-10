@@ -23,15 +23,21 @@ public class PackageController : MonoBehaviour {
     public TimeSpan timer = TimeSpan.FromSeconds(1);
     public int timerInInt;
     public int setNewTimer;
+    GameObject cityEntered;
 
     // Use this for initialization
     void Start () {
+        packages.Add(3);
         
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+        timer = TimeSpan.FromSeconds(1);
+
+        Debug.Log("Timer " + timerInInt);
+        Debug.Log("You have " + currentstars + " starts");
+        Debug.Log("You have " + packages + " packages");
 	}
     
     public void OnTriggerExit(Collider other)
@@ -39,13 +45,15 @@ public class PackageController : MonoBehaviour {
         numberOfPackages = 3;
         if (quest == true)
         {
-            //Quest();
+            //Quest(Collider other);
             for (int i = 0; i < timerInInt; i++)
             {
                 setNewTimer = i;
             }
 
             timerInInt = setNewTimer;
+
+            Debug.Log(other.name + "You just got " + numberOfPackages + " packages.");
         }
         else
         {
@@ -64,16 +72,27 @@ public class PackageController : MonoBehaviour {
             packages.Remove(packageToDrop);
 
             newstars = currentstars + 3;
+
+            Debug.Log(other.name + "You dropped " + packageToDrop + "package and you dellivered the page whithin " + timerInInt + "seconds and you get " + 3 + " stars.");
+
         }
         else if (dropPackage == true && distanceFromTopToBottomMap <= (timerInInt + bonustime))
         {
             packages.Remove(packageToDrop);
 
             newstars = currentstars + 2;
+
+            Debug.Log(other.name + "You dropped " + packageToDrop + "package and you dellivered the page whithin " + timerInInt + "seconds and you get " + 2 + " stars.");
+
         }
         else if (dropPackage == true && distanceFromTopToBottomMap > (timerInInt + bonustime))
         {
             packages.Remove(packageToDrop);
+
+            newstars = currentstars + 1;
+
+            Debug.Log(other.name + "You dropped " + packageToDrop + "package and you dellivered the page whithin " + timerInInt + "seconds and you get " + 1 + " stars.");
+
         }
         else
         {
@@ -90,7 +109,10 @@ public class PackageController : MonoBehaviour {
         if (quest = true && numberOfPackages == 0)
         {
             other.GetComponent<CityController>().CreateQuest();
+            
             packages.Add(numberOfPackages);
+            
+            
         }
         else
         {

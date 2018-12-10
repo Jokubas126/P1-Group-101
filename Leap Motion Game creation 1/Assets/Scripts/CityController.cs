@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class CityController : MonoBehaviour {
 
-    GameObject[] cities;
-    GameObject currentCity;
-    int index;
+    public GameObject[] cities;
+    public GameObject currentCity;
+    public int index;
     /*public string cityTag = "City";
     public ArrayList cities = new ArrayList();*/
 	// Use this for initialization
