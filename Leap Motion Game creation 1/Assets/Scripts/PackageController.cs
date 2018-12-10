@@ -20,7 +20,9 @@ public class PackageController : MonoBehaviour {
     public int newstars;
     public int currentstars;
 
-    public TimeSpan timer = TimeSpan.FromSeconds(1);
+    //public TimeSpan timer = TimeSpan.FromSeconds(1);
+    float timeLeft = 360.0f;
+
     public int timerInInt;
     public int setNewTimer;
     GameObject cityEntered;
@@ -33,9 +35,9 @@ public class PackageController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        timer = TimeSpan.FromSeconds(1);
 
-        Debug.Log("Timer " + timerInInt);
+        Timer();
+        Debug.Log("Timer " +timeLeft);
         Debug.Log("You have " + currentstars + " starts");
         Debug.Log("You have " + packages + " packages");
 	}
@@ -46,13 +48,7 @@ public class PackageController : MonoBehaviour {
         if (quest == true)
         {
             //Quest(Collider other);
-            for (int i = 0; i < timerInInt; i++)
-            {
-                setNewTimer = i;
-            }
-
-            timerInInt = setNewTimer;
-
+                      
             Debug.Log(other.name + "You just got " + numberOfPackages + " packages.");
         }
         else
@@ -64,10 +60,9 @@ public class PackageController : MonoBehaviour {
     public void OnTriggerEnter(Collider other)
     {
         distanceFromTopToBottomMap = 360;
-        timerInInt = Convert.ToInt32(timer);
         packageToDrop = 1;
-        int bonustime = 15;
-        if (dropPackage == true && distanceFromTopToBottomMap <= timerInInt)
+        float bonustime = 15.0f;
+        if (dropPackage == true && distanceFromTopToBottomMap <= timeLeft)
         {
             packages.Remove(packageToDrop);
 
@@ -76,7 +71,7 @@ public class PackageController : MonoBehaviour {
             Debug.Log(other.name + "You dropped " + packageToDrop + "package and you dellivered the page whithin " + timerInInt + "seconds and you get " + 3 + " stars.");
 
         }
-        else if (dropPackage == true && distanceFromTopToBottomMap <= (timerInInt + bonustime))
+        else if (dropPackage == true && distanceFromTopToBottomMap <= (timeLeft + bonustime))
         {
             packages.Remove(packageToDrop);
 
@@ -85,7 +80,7 @@ public class PackageController : MonoBehaviour {
             Debug.Log(other.name + "You dropped " + packageToDrop + "package and you dellivered the page whithin " + timerInInt + "seconds and you get " + 2 + " stars.");
 
         }
-        else if (dropPackage == true && distanceFromTopToBottomMap > (timerInInt + bonustime))
+        else if (dropPackage == true && distanceFromTopToBottomMap > (timeLeft + bonustime))
         {
             packages.Remove(packageToDrop);
 
@@ -106,7 +101,7 @@ public class PackageController : MonoBehaviour {
 
     public void Quest(Collider other)
     {
-        if (quest = true && numberOfPackages == 0)
+        if (quest = true && numberOfPackages == 0 && currentcity == cityEntered)
         {
             other.GetComponent<CityController>().CreateQuest();
             
@@ -118,5 +113,10 @@ public class PackageController : MonoBehaviour {
         {
             Debug.Log("Null");
         }
+    }
+
+    public void Timer()
+    {
+        timeLeft -= Time.deltaTime;
     }
 }
