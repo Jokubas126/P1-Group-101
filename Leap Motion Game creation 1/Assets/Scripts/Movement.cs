@@ -27,11 +27,11 @@ public class Movement : MonoBehaviour {
             playermove.Translate(Vector3.forward * velocity); // moves player forward   
             playermove.Rotate(Vector3.up * velocity * angle * Time.deltaTime); //turns player by the angle which gets as big as velocity is
         }
-        /*else
+        else
         {
-            player.velocity += transform.forward * constantspeed * Time.deltaTime;
-            //playermove.Rotate(Vector3.up * velocity * angle);
-        }*/
+            velocity = 0;
+            playermove.Translate(Vector3.forward * velocity);
+        }
     }
 
     public void PrintActivateMesssage()
